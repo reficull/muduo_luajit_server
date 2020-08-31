@@ -1,0 +1,7 @@
+add_library(wsjit WebSocket.cpp)
+add_subdirectory(sha1)
+add_subdirectory(md5)
+add_subdirectory(base64)
+target_link_libraries(wsjit sha1)
+target_link_libraries(wsjit md5)
+target_link_libraries(wsjit base64)

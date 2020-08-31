@@ -1,0 +1,909 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BINARY_FRAME	WebSocket/WebSocket.h	/^	BINARY_FRAME=0x82,$/;"	e	enum:WebSocketFrameType
+BUF_LEN	FileTools.cpp	49;"	d	file:
+BYTE_ORDER	WebSocket/md5/md5.c	57;"	d	file:
+BYTE_ORDER	WebSocket/md5/md5.c	59;"	d	file:
+BYTE_ORDER	WebSocket/md5/md5.c	61;"	d	file:
+C2lua	C2lua.cpp	/^C2lua::C2lua(lua_State *L){$/;"	f	class:C2lua
+C2lua	C2lua.hpp	/^class C2lua{$/;"	c
+CAT_INFO	tlvdemo.cc	/^}CAT_INFO,*LPCAT_INFO;  $/;"	t	typeref:struct:_CAT_INFO	file:
+CC	WebSocket/sha1/Makefile	/^CC	= g++$/;"	m
+CFLAGS	WebSocket/sha1/Makefile	/^CFLAGS	= -c -O2 -Wall -D_FILE_OFFSET_BITS=64$/;"	m
+CLIENT_H	client.hpp	2;"	d
+CLOSING_FRAME	WebSocket/WebSocket.h	/^	CLOSING_FRAME=0x3400,$/;"	e	enum:WebSocketFrameType
+CLuaMsg_ReadMsg	LuaMsg.cc	/^    void CLuaMsg_ReadMsg(LuaMsg* this_,int packetID,const char* ret)$/;"	f
+CLuaMsg_SendMsg	LuaMsg.cc	/^    void CLuaMsg_SendMsg(LuaMsg* this_,int packetID,const char* ipPort,const char* msg)$/;"	f
+CLuaMsg_gc	LuaMsg.cc	/^    void CLuaMsg_gc(LuaMsg* this_){$/;"	f
+CLuaMsg_new	LuaMsg.cc	/^    LuaMsg* CLuaMsg_new(){$/;"	f
+CONFIGFILE	bak.serverlua.cc	34;"	d	file:
+CONFIGFILE	chatserverlua.cc	34;"	d	file:
+CONFIGFILE	define.h	5;"	d
+CONFIGFILE	serverlua.cc	34;"	d	file:
+CTlvPacket	tlv.h	/^    CTlvPacket(char *pBuf,unsigned int len):m_pData(pBuf),m_uiLength(len),m_pEndData(m_pData+len),m_pWritePtr(m_pData),m_pReadPtr(m_pData) { }  $/;"	f	class:CTlvPacket
+CTlvPacket	tlv.h	/^class CTlvPacket  $/;"	c
+ChatClient	client.hpp	/^        ChatClient(EventLoop* loop, const InetAddress& serverAddr)$/;"	f	class:ChatClient
+ChatClient	client.hpp	/^class ChatClient : boost::noncopyable$/;"	c
+ChatClient	testclient.cc	/^  ChatClient(EventLoop* loop, const InetAddress& serverAddr)$/;"	f	class:ChatClient
+ChatClient	testclient.cc	/^class ChatClient : boost::noncopyable$/;"	c	file:
+CircularShift	WebSocket/sha1/sha1.cpp	/^unsigned SHA1::CircularShift(int bits, unsigned word)$/;"	f	class:SHA1
+Computed	WebSocket/sha1/sha1.h	/^        bool Computed;                      \/\/ Is the digest computed?$/;"	m	class:SHA1
+ConnectionList	bak.serverlua.cc	/^    typedef std::set<TcpConnectionPtr> ConnectionList;$/;"	t	class:EchoServer	file:
+ConnectionList	chatserverlua.cc	/^        typedef std::set<TcpConnectionPtr> ConnectionList;$/;"	t	class:EchoServer	file:
+ConnectionList	server.cc	/^    typedef std::set<TcpConnectionPtr> ConnectionList;$/;"	t	class:EchoServer	file:
+ConnectionList	serverlua.cc	/^        typedef std::set<TcpConnectionPtr> ConnectionList;$/;"	t	class:EchoServer	file:
+ConnectionList	ssdbluachatserver.hpp	/^        typedef std::set<TcpConnectionPtr> ConnectionList;$/;"	t	class:CppServer
+Corrupted	WebSocket/sha1/sha1.h	/^        bool Corrupted;                     \/\/ Is the message digest corruped?$/;"	m	class:SHA1
+CppServer	ssdbluachatserver.hpp	/^        CppServer(EventLoop* loop, const InetAddress& listenAddr,int numThreads)$/;"	f	class:CppServer
+CppServer	ssdbluachatserver.hpp	/^class CppServer$/;"	c
+DISCONNECT_FRAME	WebSocket/WebSocket.h	/^    DISCONNECT_FRAME=0x8$/;"	e	enum:WebSocketFrameType
+DisplayMessageDigest	WebSocket/sha1/shatest.cpp	/^void DisplayMessageDigest(unsigned *message_digest)$/;"	f
+ERROR_FRAME	WebSocket/WebSocket.h	/^	ERROR_FRAME=0xFF00,$/;"	e	enum:WebSocketFrameType
+EVENT_SIZE	FileTools.cpp	48;"	d	file:
+EchoClient	client1.cc	/^  EchoClient(EventLoop* loop, const InetAddress& listenAddr, int size)$/;"	f	class:EchoClient
+EchoClient	client1.cc	/^class EchoClient : boost::noncopyable$/;"	c	file:
+EchoClient	client_bak.cc	/^  EchoClient(EventLoop* loop, const InetAddress& listenAddr, int size)$/;"	f	class:EchoClient
+EchoClient	client_bak.cc	/^class EchoClient : boost::noncopyable$/;"	c	file:
+EchoServer	bak.serverlua.cc	/^    EchoServer(EventLoop* loop, const InetAddress& listenAddr)$/;"	f	class:EchoServer
+EchoServer	bak.serverlua.cc	/^class EchoServer$/;"	c	file:
+EchoServer	chatserverlua.cc	/^        EchoServer(EventLoop* loop, const InetAddress& listenAddr)$/;"	f	class:EchoServer
+EchoServer	chatserverlua.cc	/^class EchoServer$/;"	c	file:
+EchoServer	server.cc	/^    EchoServer(EventLoop* loop, const InetAddress& listenAddr)$/;"	f	class:EchoServer
+EchoServer	server.cc	/^class EchoServer$/;"	c	file:
+EchoServer	server_bak.cc	/^  EchoServer(EventLoop* loop, const InetAddress& listenAddr)$/;"	f	class:EchoServer
+EchoServer	server_bak.cc	/^class EchoServer$/;"	c	file:
+EchoServer	serverlua.cc	/^        EchoServer(EventLoop* loop, const InetAddress& listenAddr)$/;"	f	class:EchoServer
+EchoServer	serverlua.cc	/^class EchoServer$/;"	c	file:
+F	WebSocket/md5/md5.c	202;"	d	file:
+FILE_WATCHER_H	file_watcher.h	12;"	d
+FileTools	FileTools.cpp	/^typedef class FileTools {$/;"	c	file:
+G	WebSocket/md5/md5.c	228;"	d	file:
+GC_BROADCAST	ssdbluachatserver.hpp	51;"	d
+GC_DISCONNECT	ssdbluachatserver.hpp	52;"	d
+H	WebSocket/md5/md5.c	254;"	d	file:
+H	WebSocket/sha1/sha1.h	/^        unsigned H[5];                      \/\/ Message digest buffers$/;"	m	class:SHA1
+I	WebSocket/md5/md5.c	280;"	d	file:
+INCOMPLETE_BINARY_FRAME	WebSocket/WebSocket.h	/^	INCOMPLETE_BINARY_FRAME=0x02,$/;"	e	enum:WebSocketFrameType
+INCOMPLETE_FRAME	WebSocket/WebSocket.h	/^	INCOMPLETE_FRAME=0xFE00,$/;"	e	enum:WebSocketFrameType
+INCOMPLETE_TEXT_FRAME	WebSocket/WebSocket.h	/^	INCOMPLETE_TEXT_FRAME=0x01,$/;"	e	enum:WebSocketFrameType
+Input	WebSocket/sha1/sha1.cpp	/^void SHA1::Input(   const char  *message_array,$/;"	f	class:SHA1
+Input	WebSocket/sha1/sha1.cpp	/^void SHA1::Input(   const unsigned char *message_array,$/;"	f	class:SHA1
+Input	WebSocket/sha1/sha1.cpp	/^void SHA1::Input(char message_element)$/;"	f	class:SHA1
+Input	WebSocket/sha1/sha1.cpp	/^void SHA1::Input(unsigned char message_element)$/;"	f	class:SHA1
+L	bak.serverlua.cc	/^    lua_State *L;$/;"	m	class:Lua_State	file:
+L	chatserverlua.cc	/^        Lua_State L;$/;"	m	class:EchoServer	file:
+L	chatserverlua.cc	/^    lua_State *L;$/;"	m	class:Lua_State	file:
+L	client.hpp	/^        lua_State *L;$/;"	m	class:ChatClient
+L	codec.h	/^        lua_State *L;$/;"	m	class:LengthHeaderCodec
+L	global.cpp	/^lua_State *L = luaL_newstate();$/;"	v
+L	luaSingle.h	/^        lua_State *L;$/;"	m	class:luaSingle
+L	serverlua.cc	/^    lua_State *L;$/;"	m	class:Lua_State	file:
+L	ssdbluachatserver.hpp	/^        lua_State *L;$/;"	m	class:CppServer
+LIBS	WebSocket/sha1/Makefile	/^LIBS	=$/;"	m
+LPCAT_INFO	tlvdemo.cc	/^}CAT_INFO,*LPCAT_INFO;  $/;"	t	typeref:struct:_CAT_INFO	file:
+LUAMSG_H	LuaMsg.h	2;"	d
+LUAWRAPPERUTILS_HPP_	luawrapperutil.hpp	18;"	d
+LUAW_CACHE_KEY	luawrapper.hpp	54;"	d
+LUAW_CACHE_METATABLE_KEY	luawrapper.hpp	55;"	d
+LUAW_EXTENDS_KEY	luawrapper.hpp	52;"	d
+LUAW_HOLDS_KEY	luawrapper.hpp	56;"	d
+LUAW_POSTCTOR_KEY	luawrapper.hpp	51;"	d
+LUAW_STD	luawrapperutil.hpp	27;"	d
+LUAW_STORAGE_KEY	luawrapper.hpp	53;"	d
+LUAW_WRAPPER_KEY	luawrapper.hpp	57;"	d
+LUA_WRAPPER_H_	luawrapper.hpp	36;"	d
+LUNAR_DECLARE_METHOD	lunar.hpp	214;"	d
+LUNAR_DECLARE_METHOD	lunar.hpp	4;"	d
+LengthHeaderCodec	codec.h	/^        explicit LengthHeaderCodec(const StringMessageCallback& cb)$/;"	f	class:LengthHeaderCodec
+LengthHeaderCodec	codec.h	/^class LengthHeaderCodec : boost::noncopyable$/;"	c
+Length_High	WebSocket/sha1/sha1.h	/^        unsigned Length_High;               \/\/ Message length in bits$/;"	m	class:SHA1
+Length_Low	WebSocket/sha1/sha1.h	/^        unsigned Length_Low;                \/\/ Message length in bits$/;"	m	class:SHA1
+LibConfig.AddCommand	libconfig.lua	/^	function LibConfig.AddCommand(name, ...)$/;"	f
+LibConfig.AddConfig	libconfig.lua	/^	function LibConfig.AddConfig(name, parent, func, globalName)$/;"	f
+Log	WebSocket/websocketclient/websocketclient.html	/^        function Log(Text, MessageType) {$/;"	f
+Lua	lua_utility.hpp	/^struct Lua$/;"	s	namespace:script
+LuaMsg	LuaMsg.cc	/^        LuaMsg(){$/;"	f	class:LuaMsg
+LuaMsg	LuaMsg.cc	/^        explicit LuaMsg(const StringMessageCallback &cb):messageCallback_(cb){$/;"	f	class:LuaMsg
+LuaMsg	LuaMsg.cc	/^class LuaMsg : boost::noncopyable$/;"	c	file:
+LuaMsg	LuaMsg.h	/^        LuaMsg(){$/;"	f	class:LuaMsg
+LuaMsg	LuaMsg.h	/^        explicit LuaMsg(const StringMessageCallback &cb):messageCallback_(cb){};$/;"	f	class:LuaMsg
+LuaMsg	LuaMsg.h	/^class LuaMsg : boost::noncopyable$/;"	c
+LuaScriptRoot	LuaMsg.cc	/^        std::string LuaScriptRoot;$/;"	m	class:LuaMsg	file:
+LuaScriptRoot	LuaMsg.h	/^        std::string LuaScriptRoot;$/;"	m	class:LuaMsg
+LuaWrapper	luawrapper.hpp	/^class LuaWrapper$/;"	c
+Lua_State	bak.serverlua.cc	/^    Lua_State() : L(luaL_newstate()) {$/;"	f	class:Lua_State
+Lua_State	bak.serverlua.cc	/^class Lua_State$/;"	c	file:
+Lua_State	chatserverlua.cc	/^    Lua_State() : L(luaL_newstate()) {$/;"	f	class:Lua_State
+Lua_State	chatserverlua.cc	/^class Lua_State$/;"	c	file:
+Lua_State	serverlua.cc	/^    Lua_State() : L(luaL_newstate()) {$/;"	f	class:Lua_State
+Lua_State	serverlua.cc	/^class Lua_State$/;"	c	file:
+Lunar	lunar.hpp	/^template <typename T> class Lunar {$/;"	c
+MLOG_INFO	bak.serverlua.cc	38;"	d	file:
+MLOG_INFO	chatserverlua.cc	38;"	d	file:
+MLOG_INFO	client.hpp	45;"	d
+MLOG_INFO	define.h	9;"	d
+MLOG_INFO	server.cc	34;"	d	file:
+MLOG_INFO	serverlua.cc	38;"	d	file:
+MONGONS	server.cc	30;"	d	file:
+MSGTYPE	ssdbluachatserver.hpp	/^enum MSGTYPE{$/;"	g
+MT_NORMAL	ssdbluachatserver.hpp	/^    MT_NORMAL,MT_XOR,MT_WEBSOCKET$/;"	e	enum:MSGTYPE
+MT_WEBSOCKET	ssdbluachatserver.hpp	/^    MT_NORMAL,MT_XOR,MT_WEBSOCKET$/;"	e	enum:MSGTYPE
+MT_XOR	ssdbluachatserver.hpp	/^    MT_NORMAL,MT_XOR,MT_WEBSOCKET$/;"	e	enum:MSGTYPE
+MUDUO_EXAMPLES_ASIO_CHAT_CODEC_H	codec.h	2;"	d
+Message_Block	WebSocket/sha1/sha1.h	/^        unsigned char Message_Block[64];    \/\/ 512-bit message blocks$/;"	m	class:SHA1
+Message_Block_Index	WebSocket/sha1/sha1.h	/^        int Message_Block_Index;            \/\/ Index into message block array$/;"	m	class:SHA1
+OBJS	WebSocket/sha1/Makefile	/^OBJS	= sha1.o$/;"	m
+OFFLINESTATUS	bak.serverlua.cc	36;"	d	file:
+OFFLINESTATUS	chatserverlua.cc	36;"	d	file:
+OFFLINESTATUS	define.h	7;"	d
+OFFLINESTATUS	server.cc	32;"	d	file:
+OFFLINESTATUS	serverlua.cc	36;"	d	file:
+ONLINESTATUS	bak.serverlua.cc	35;"	d	file:
+ONLINESTATUS	chatserverlua.cc	35;"	d	file:
+ONLINESTATUS	define.h	6;"	d
+ONLINESTATUS	server.cc	31;"	d	file:
+ONLINESTATUS	serverlua.cc	35;"	d	file:
+OPENING_FRAME	WebSocket/WebSocket.h	/^	OPENING_FRAME=0x3300,$/;"	e	enum:WebSocketFrameType
+PING_FRAME	WebSocket/WebSocket.h	/^	PING_FRAME=0x19,$/;"	e	enum:WebSocketFrameType
+PONG_FRAME	WebSocket/WebSocket.h	/^	PONG_FRAME=0x1A,$/;"	e	enum:WebSocketFrameType
+PadMessage	WebSocket/sha1/sha1.cpp	/^void SHA1::PadMessage()$/;"	f	class:SHA1
+PrintTable	ssdbluachatserver.cpp	/^void PrintTable(lua_State *L)$/;"	f
+ProcessMessageBlock	WebSocket/sha1/sha1.cpp	/^void SHA1::ProcessMessageBlock()$/;"	f	class:SHA1
+ROTATE_LEFT	WebSocket/md5/md5.c	197;"	d	file:
+Read	tlv.cpp	/^bool CTlvPacket::Read(void *pDst,unsigned int uiCount)  $/;"	f	class:CTlvPacket
+ReadInt	tlv.cpp	/^bool CTlvPacket::ReadInt(int *data,bool bMovePtr)  $/;"	f	class:CTlvPacket
+ReadMsg	LuaMsg.cc	/^bool LuaMsg::ReadMsg(int packetID,const char* ret){$/;"	f	class:LuaMsg
+ReadMsg	LuaMsg.cpp	/^bool LuaMsg::ReadMsg(int packetID,std::string& ret){$/;"	f	class:LuaMsg
+RegType	lunar.hpp	/^  typedef struct { const char *name; mfp mfunc; } RegType;$/;"	t	class:Lunar	typeref:struct:Lunar::__anon2
+Register	lunar.hpp	/^  static void Register(lua_State *L) {$/;"	f	class:Lunar
+Reset	WebSocket/sha1/sha1.cpp	/^void SHA1::Reset()$/;"	f	class:SHA1
+Result	WebSocket/sha1/sha1.cpp	/^bool SHA1::Result(unsigned *message_digest_array)$/;"	f	class:SHA1
+SET	WebSocket/md5/md5.c	203;"	d	file:
+SET	WebSocket/md5/md5.c	223;"	d	file:
+SET	WebSocket/md5/md5.c	229;"	d	file:
+SET	WebSocket/md5/md5.c	249;"	d	file:
+SET	WebSocket/md5/md5.c	255;"	d	file:
+SET	WebSocket/md5/md5.c	275;"	d	file:
+SET	WebSocket/md5/md5.c	281;"	d	file:
+SET	WebSocket/md5/md5.c	301;"	d	file:
+SETWIDTH	scodec.cpp	2;"	d	file:
+SHA1	WebSocket/sha1/sha1.cpp	/^SHA1::SHA1()$/;"	f	class:SHA1
+SHA1	WebSocket/sha1/sha1.h	/^class SHA1$/;"	c
+SHA1_COMPARE	WebSocket/sha1/shacmp.cpp	31;"	d	file:
+SHA1_FILE_ERROR	WebSocket/sha1/shacmp.cpp	34;"	d	file:
+SHA1_NO_COMPARE	WebSocket/sha1/shacmp.cpp	32;"	d	file:
+SHA1_USAGE_ERROR	WebSocket/sha1/shacmp.cpp	33;"	d	file:
+Scodec	scodec.cpp	/^namespace Scodec{$/;"	n	file:
+Scodec	scodec.hpp	/^namespace Scodec{$/;"	n
+Scodec_encode	scodec.cpp	/^    const char* Scodec_encode(char* str,const char* key){$/;"	f
+SendDataClicked	WebSocket/websocketclient/websocketclient.html	/^        function SendDataClicked() {$/;"	f
+SendMsg	LuaMsg.cc	/^void LuaMsg::SendMsg(int packetID,const char* ipPort, const char* msg){$/;"	f	class:LuaMsg
+SendMsg	LuaMsg.cpp	/^void LuaMsg::SendMsg(int packetID,std::string &ipPort, std::string &msg){$/;"	f	class:LuaMsg
+SlashCmdList[name] 	libconfig.lua	/^		SlashCmdList[name] = function()$/;"	f
+StringMessageCallback	LuaMsg.cc	/^                muduo::Timestamp)> StringMessageCallback;$/;"	t	class:LuaMsg	file:
+StringMessageCallback	LuaMsg.h	/^                muduo::Timestamp)> StringMessageCallback;$/;"	t	class:LuaMsg
+StringMessageCallback	codec.h	/^                muduo::Timestamp)> StringMessageCallback;$/;"	t	class:LengthHeaderCodec
+T1	WebSocket/md5/md5.c	65;"	d	file:
+T10	WebSocket/md5/md5.c	74;"	d	file:
+T11	WebSocket/md5/md5.c	75;"	d	file:
+T12	WebSocket/md5/md5.c	76;"	d	file:
+T13	WebSocket/md5/md5.c	77;"	d	file:
+T14	WebSocket/md5/md5.c	78;"	d	file:
+T15	WebSocket/md5/md5.c	79;"	d	file:
+T16	WebSocket/md5/md5.c	80;"	d	file:
+T17	WebSocket/md5/md5.c	81;"	d	file:
+T18	WebSocket/md5/md5.c	82;"	d	file:
+T19	WebSocket/md5/md5.c	83;"	d	file:
+T2	WebSocket/md5/md5.c	66;"	d	file:
+T20	WebSocket/md5/md5.c	84;"	d	file:
+T21	WebSocket/md5/md5.c	85;"	d	file:
+T22	WebSocket/md5/md5.c	86;"	d	file:
+T23	WebSocket/md5/md5.c	87;"	d	file:
+T24	WebSocket/md5/md5.c	88;"	d	file:
+T25	WebSocket/md5/md5.c	89;"	d	file:
+T26	WebSocket/md5/md5.c	90;"	d	file:
+T27	WebSocket/md5/md5.c	91;"	d	file:
+T28	WebSocket/md5/md5.c	92;"	d	file:
+T29	WebSocket/md5/md5.c	93;"	d	file:
+T3	WebSocket/md5/md5.c	67;"	d	file:
+T30	WebSocket/md5/md5.c	94;"	d	file:
+T31	WebSocket/md5/md5.c	95;"	d	file:
+T32	WebSocket/md5/md5.c	96;"	d	file:
+T33	WebSocket/md5/md5.c	97;"	d	file:
+T34	WebSocket/md5/md5.c	98;"	d	file:
+T35	WebSocket/md5/md5.c	99;"	d	file:
+T36	WebSocket/md5/md5.c	100;"	d	file:
+T37	WebSocket/md5/md5.c	101;"	d	file:
+T38	WebSocket/md5/md5.c	102;"	d	file:
+T39	WebSocket/md5/md5.c	103;"	d	file:
+T4	WebSocket/md5/md5.c	68;"	d	file:
+T40	WebSocket/md5/md5.c	104;"	d	file:
+T41	WebSocket/md5/md5.c	105;"	d	file:
+T42	WebSocket/md5/md5.c	106;"	d	file:
+T43	WebSocket/md5/md5.c	107;"	d	file:
+T44	WebSocket/md5/md5.c	108;"	d	file:
+T45	WebSocket/md5/md5.c	109;"	d	file:
+T46	WebSocket/md5/md5.c	110;"	d	file:
+T47	WebSocket/md5/md5.c	111;"	d	file:
+T48	WebSocket/md5/md5.c	112;"	d	file:
+T49	WebSocket/md5/md5.c	113;"	d	file:
+T5	WebSocket/md5/md5.c	69;"	d	file:
+T50	WebSocket/md5/md5.c	114;"	d	file:
+T51	WebSocket/md5/md5.c	115;"	d	file:
+T52	WebSocket/md5/md5.c	116;"	d	file:
+T53	WebSocket/md5/md5.c	117;"	d	file:
+T54	WebSocket/md5/md5.c	118;"	d	file:
+T55	WebSocket/md5/md5.c	119;"	d	file:
+T56	WebSocket/md5/md5.c	120;"	d	file:
+T57	WebSocket/md5/md5.c	121;"	d	file:
+T58	WebSocket/md5/md5.c	122;"	d	file:
+T59	WebSocket/md5/md5.c	123;"	d	file:
+T6	WebSocket/md5/md5.c	70;"	d	file:
+T60	WebSocket/md5/md5.c	124;"	d	file:
+T61	WebSocket/md5/md5.c	125;"	d	file:
+T62	WebSocket/md5/md5.c	126;"	d	file:
+T63	WebSocket/md5/md5.c	127;"	d	file:
+T64	WebSocket/md5/md5.c	128;"	d	file:
+T7	WebSocket/md5/md5.c	71;"	d	file:
+T8	WebSocket/md5/md5.c	72;"	d	file:
+T9	WebSocket/md5/md5.c	73;"	d	file:
+TCON	tcon.cpp	/^TCON::TCON(lua_State *L){$/;"	f	class:TCON
+TCON	tcon.hpp	/^class TCON{$/;"	c
+TESTA	WebSocket/sha1/shatest.cpp	29;"	d	file:
+TESTB	WebSocket/sha1/shatest.cpp	30;"	d	file:
+TEXT_FRAME	WebSocket/WebSocket.h	/^	TEXT_FRAME=0x81,$/;"	e	enum:WebSocketFrameType
+TLV	tlvnode.cc	/^struct TLV$/;"	s	file:
+TLVComplex	tlvnode.cc	/^struct TLVComplex$/;"	s	file:
+TLVNODE	tlvnode.cc	/^struct TLVNODE$/;"	s	file:
+TLV_DecodeCat	tlvdemo.cc	/^int TLV_DecodeCat(char *pBuf, int iLen, LPCAT_INFO pCatInfo)  $/;"	f
+TLV_EncodeCat	tlvdemo.cc	/^int TLV_EncodeCat(LPCAT_INFO pCatInfo, char *pBuf, int &iLen)  $/;"	f
+TSTAMP	tstamp.cpp	/^TSTAMP::TSTAMP(lua_State *L){$/;"	f	class:TSTAMP
+TSTAMP	tstamp.hpp	/^class TSTAMP{$/;"	c
+TYPE_GZIP	ssdbluachatserver.hpp	53;"	d
+T_MASK	WebSocket/md5/md5.c	64;"	d	file:
+ToggleConnectionClicked	WebSocket/websocketclient/websocketclient.html	/^      function ToggleConnectionClicked() {$/;"	f
+UserIdConList	ssdbluachatserver.hpp	/^        typedef std::map<std::string,TcpConnectionPtr> UserIdConList;$/;"	t	class:CppServer
+WEBSOCKETPP_MD5_WRAPPER_HPP	WebSocket/md5/md5.hpp	29;"	d
+WEBSOCKET_H	WebSocket/WebSocket.h	8;"	d
+WSCONNECTED	ssdbluachatserver.hpp	/^    WSCONNECTED=1$/;"	e	enum:wsStatus
+WSonClose	WebSocket/websocketclient/websocketclient.html	/^        function WSonClose() {$/;"	f
+WSonError	WebSocket/websocketclient/websocketclient.html	/^        function WSonError() {$/;"	f
+WSonMessage	WebSocket/websocketclient/websocketclient.html	/^        function WSonMessage(event) {$/;"	f
+WSonOpen	WebSocket/websocketclient/websocketclient.html	/^        function WSonOpen() {$/;"	f
+WebSocket	WebSocket/WebSocket.cpp	/^WebSocket::WebSocket() {$/;"	f	class:WebSocket
+WebSocket	WebSocket/WebSocket.h	/^class WebSocket$/;"	c
+WebSocketFrameType	WebSocket/WebSocket.h	/^enum WebSocketFrameType {$/;"	g
+WebSocketPtr	WebSocket/WebSocket.h	/^typedef boost::shared_ptr<WebSocket> WebSocketPtr;$/;"	t
+Write	tlv.cpp	/^bool CTlvPacket::Write(const void *pDst,unsigned int uiCount)  $/;"	f	class:CTlvPacket
+WriteInt	tlv.cpp	/^bool CTlvPacket::WriteInt(int data,bool bMovePtr)  $/;"	f	class:CTlvPacket
+_CAT_INFO	tlvdemo.cc	/^typedef struct _CAT_INFO  $/;"	s	file:
+_CTLVPACKET	tlv.h	2;"	d
+_DEFINE_PCH	define.h	2;"	d
+_SHA1_H_	WebSocket/sha1/sha1.h	25;"	d
+__LUA_UTILITY__	lua_utility.hpp	2;"	d
+__LUNNAR__	lunar.hpp	2;"	d
+__SSDBLUACHATSERVER_	ssdbluachatserver.hpp	2;"	d
+__STRXOR	strxor.hpp	2;"	d
+_c2lua_h_	C2lua.hpp	2;"	d
+_cancel	libconfig.lua	/^	local function _cancel(self)$/;"	f
+_cancelFunc	libconfig.lua	/^	local function _cancelFunc(self)$/;"	f
+_default	libconfig.lua	/^	local function _default(self)$/;"	f
+_menu	libconfig.lua	/^	local function _menu(self)$/;"	f
+_okay	libconfig.lua	/^	local function _okay(self)$/;"	f
+_onClick	libconfig.lua	/^	local function _onClick(self)$/;"	f
+_onClickWrapper	libconfig.lua	/^	local function _onClickWrapper(self)$/;"	f
+_onEnter	libconfig.lua	/^	local function _onEnter(self)$/;"	f
+_onEnterPressed	libconfig.lua	/^	local function _onEnterPressed(self)$/;"	f
+_onLeave	libconfig.lua	/^	local function _onLeave(self)$/;"	f
+_onValueChanged	libconfig.lua	/^	local function _onValueChanged(self)$/;"	f
+_swatchFunc	libconfig.lua	/^	local function _swatchFunc(self)$/;"	f
+_tcon_h_	tcon.hpp	7;"	d
+_tstamp_h_	tstamp.hpp	2;"	d
+_value	libconfig.lua	/^	local function _value(self)$/;"	f
+_valueWrapper	libconfig.lua	/^	local function _valueWrapper(button, self, value)$/;"	f
+abcd	WebSocket/md5/md5.h	/^    md5_word_t abcd[4];		\/* digest buffer *\/$/;"	m	struct:md5_state_s
+accessTime	chatserverlua.cc	/^        std::string accessTime;$/;"	m	class:EchoServer	file:
+accessTime	serverlua.cc	/^        std::string accessTime;$/;"	m	class:EchoServer	file:
+accessTime	ssdbluachatserver.hpp	/^        std::string accessTime;$/;"	m	class:CppServer
+addTime	tstamp.cpp	/^int TSTAMP::addTime(lua_State *L){$/;"	f	class:TSTAMP
+addWatch	FileTools.cpp	/^int FileTools::addWatch(char *path, ...)$/;"	f	class:FileTools
+allocator	luawrapper.hpp	/^    static T* (*allocator)(lua_State*);$/;"	m	class:LuaWrapper
+allocator	luawrapper.hpp	/^template <typename T> T* (*LuaWrapper<T>::allocator)(lua_State*);$/;"	v
+answerHandshake	WebSocket/WebSocket.cpp	/^string WebSocket::answerHandshake() $/;"	f	class:WebSocket
+base64_chars	WebSocket/base64/base64.cpp	/^static const std::string base64_chars = $/;"	v	file:
+base64_decode	WebSocket/base64/base64.cpp	/^std::string base64_decode(std::string const& encoded_string) {$/;"	f
+base64_encode	WebSocket/base64/base64.cpp	/^std::string base64_encode(unsigned char const* bytes_to_encode, unsigned int in_len) {$/;"	f
+basepath	WebSocket/wsjit.lua	/^local function basepath()$/;"	f
+bittohex	scodec.cpp	/^std::string bittohex(std::string& str){$/;"	f	namespace:Scodec
+bittostr	scodec.cpp	/^std::string bittostr(std::string& str){$/;"	f	namespace:Scodec
+buf	WebSocket/md5/md5.h	/^    md5_byte_t buf[64];		\/* accumulate block *\/$/;"	m	struct:md5_state_s
+c	bak.serverlua.cc	/^    mongo::DBClientConnection* c;$/;"	m	class:EchoServer	file:
+c	chatserverlua.cc	/^        mongo::DBClientConnection* c;$/;"	m	class:EchoServer	file:
+c	server.cc	/^    mongo::DBClientConnection* c;$/;"	m	class:EchoServer	file:
+c	serverlua.cc	/^        mongo::DBClientConnection* c;$/;"	m	class:EchoServer	file:
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, Args const&... args)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1, T2 a2)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)$/;"	f	struct:script::Lua
+call	lua_utility.hpp	/^    static void call(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5,T6 a6)$/;"	f	struct:script::Lua
+call	luawrapperutil.hpp	/^    static int call(lua_State* L)$/;"	f	struct:luaU_MemberFuncWrapper
+call	luawrapperutil.hpp	/^    static int call(lua_State* L)$/;"	f	struct:luaU_StaticFuncWrapper
+call	lunar.hpp	/^  static int call(lua_State *L, const char *method,$/;"	f	class:Lunar
+callImpl	luawrapperutil.hpp	/^    static int callImpl(lua_State* L, luaU_IntPack<indices...>)$/;"	f	struct:luaU_MemberFuncWrapper
+callImpl	luawrapperutil.hpp	/^    static int callImpl(lua_State* L, luaU_IntPack<indices...>)$/;"	f	struct:luaU_StaticFuncWrapper
+call_R	lua_utility.hpp	/^    call_R(lua_State* L, char const* funcname, Args const&... args)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1, T2 a2)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5)$/;"	f	struct:script::Lua
+call_R	lua_utility.hpp	/^    static Ret call_R(lua_State* L, char const* funcname, T1 a1, T2 a2, T3 a3, T4 a4, T5 a5,T6 a6)$/;"	f	struct:script::Lua
+cancelFunc_wrapper	libconfig.lua	/^		local function cancelFunc_wrapper()$/;"	f
+cast	luawrapper.hpp	/^    luaW_Userdata (*cast)(const luaW_Userdata&);$/;"	m	struct:luaW_Userdata
+cast	luawrapper.hpp	/^    static luaW_Userdata (*cast)(const luaW_Userdata&);$/;"	m	class:LuaWrapper
+cast	luawrapper.hpp	/^template <typename T> luaW_Userdata (*LuaWrapper<T>::cast)(const luaW_Userdata&);$/;"	v
+cfg	chatserverlua.cc	/^        Config cfg;$/;"	m	class:EchoServer	file:
+cfg	serverlua.cc	/^        Config cfg;$/;"	m	class:EchoServer	file:
+check	lunar.hpp	/^  static T *check(lua_State *L, int narg) {$/;"	f	class:Lunar
+checkRenew	chatserverlua.cc	/^void checkRenew()$/;"	f	class:EchoServer	file:
+checkRenew	serverlua.cc	/^void checkRenew()$/;"	f	class:EchoServer	file:
+checkRenew	ssdbluachatserver.cpp	/^void CppServer::checkRenew()$/;"	f	class:CppServer
+className	C2lua.cpp	/^const char C2lua::className[] = "C2lua";$/;"	m	class:C2lua	file:
+className	C2lua.hpp	/^        static const char className[];$/;"	m	class:C2lua
+className	tcon.cpp	/^const char TCON::className[] = "TCON";$/;"	m	class:TCON	file:
+className	tcon.hpp	/^    static const char className[];$/;"	m	class:TCON
+className	tstamp.cpp	/^const char TSTAMP::className[] = "TSTAMP";$/;"	m	class:TSTAMP	file:
+className	tstamp.hpp	/^    static const char className[];$/;"	m	class:TSTAMP
+classname	luawrapper.hpp	/^    static const char* classname;$/;"	m	class:LuaWrapper
+classname	luawrapper.hpp	/^template <typename T> const char* LuaWrapper<T>::classname;$/;"	m	class:LuaWrapper
+cleanup	ssdbluachatserver.cpp	/^void CppServer::cleanup(const TcpConnectionPtr& conn)$/;"	f	class:CppServer
+client_	client.hpp	/^        TcpClient client_;$/;"	m	class:ChatClient
+client_	client1.cc	/^  TcpClient client_;$/;"	m	class:EchoClient	file:
+client_	client_bak.cc	/^  TcpClient client_;$/;"	m	class:EchoClient	file:
+client_	testclient.cc	/^  TcpClient client_;$/;"	m	class:ChatClient	file:
+connMongo	bak.serverlua.cc	/^    void connMongo()$/;"	f	class:EchoServer
+connMongo	chatserverlua.cc	/^        void connMongo()$/;"	f	class:EchoServer
+connMongo	server.cc	/^    void connMongo()$/;"	f	class:EchoServer
+connMongo	serverlua.cc	/^        void connMongo()$/;"	f	class:EchoServer
+connect	client.cpp	/^void ChatClient::connect()$/;"	f	class:ChatClient
+connect	client1.cc	/^  void connect()$/;"	f	class:EchoClient
+connect	client_bak.cc	/^  void connect()$/;"	f	class:EchoClient
+connect	testclient.cc	/^  void connect()$/;"	f	class:ChatClient
+connection_	client.hpp	/^        TcpConnectionPtr connection_;$/;"	m	class:ChatClient
+connection_	testclient.cc	/^  TcpConnectionPtr connection_;$/;"	m	class:ChatClient	file:
+connections_	bak.serverlua.cc	/^    ConnectionList connections_;$/;"	m	class:EchoServer	file:
+connections_	chatserverlua.cc	/^        ConnectionList connections_;$/;"	m	class:EchoServer	file:
+connections_	server.cc	/^    ConnectionList connections_;$/;"	m	class:EchoServer	file:
+connections_	serverlua.cc	/^        ConnectionList connections_;$/;"	m	class:EchoServer	file:
+connections_	ssdbluachatserver.hpp	/^        ConnectionList connections_;$/;"	m	class:CppServer
+count	WebSocket/md5/md5.h	/^    md5_word_t count[2];	\/* message length in bits, lsw first *\/$/;"	m	struct:md5_state_s
+cp	file_watcher.cpp	/^namespace cp$/;"	n	file:
+cp	file_watcher.h	/^namespace cp $/;"	n
+cronJob	ssdbluachatserver.cpp	/^void CppServer::cronJob()$/;"	f	class:CppServer
+currentDateTime	ssdbluachatserver.cpp	/^std::string currentDateTime() {$/;"	f
+cwdpath	ssdbluachatserver.cpp	/^std::string cwdpath;$/;"	v
+cwdpath	ssdbluachatserver.hpp	/^        std::string cwdpath;$/;"	m	class:CppServer
+d_file_timeout_sec_	file_watcher.h	/^    double d_file_timeout_sec_;$/;"	m	class:cp::file_watcher_t
+data	luawrapper.hpp	/^    void* data;$/;"	m	struct:luaW_Userdata
+deallocator	luawrapper.hpp	/^    static void (*deallocator)(lua_State*, T*);$/;"	m	class:LuaWrapper
+deallocator	luawrapper.hpp	/^template <typename T> void (*LuaWrapper<T>::deallocator)(lua_State*, T*);$/;"	v
+decodeStr	scodec.cpp	/^std::string decodeStr(std::string str,std::string key){$/;"	f	namespace:Scodec
+disconnect	client.cpp	/^void ChatClient::disconnect()$/;"	f	class:ChatClient
+disconnect	testclient.cc	/^  void disconnect()$/;"	f	class:ChatClient
+doFindOne	bak.serverlua.cc	/^    mongo::BSONObj doFindOne(std::string ns,mongo::BSONObj q){$/;"	f	class:EchoServer	file:
+doFindOne	chatserverlua.cc	/^mongo::BSONObj doFindOne(std::string ns,mongo::BSONObj q){$/;"	f	class:EchoServer	file:
+doFindOne	server.cc	/^    mongo::BSONObj doFindOne(std::string ns,mongo::BSONObj q){$/;"	f	class:EchoServer	file:
+doFindOne	serverlua.cc	/^mongo::BSONObj doFindOne(std::string ns,mongo::BSONObj q){$/;"	f	class:EchoServer	file:
+doLogin	bak.serverlua.cc	/^    void doLogin(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+doLogin	chatserverlua.cc	/^void doLogin(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+doLogin	server.cc	/^    void doLogin(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+doLogin	serverlua.cc	/^void doLogin(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+doLogout	bak.serverlua.cc	/^    void doLogout(int userId,const TcpConnectionPtr& conn){$/;"	f	class:EchoServer	file:
+doLogout	chatserverlua.cc	/^void doLogout(int userId,const TcpConnectionPtr& conn){$/;"	f	class:EchoServer	file:
+doLogout	server.cc	/^    void doLogout(int userId,const TcpConnectionPtr& conn){$/;"	f	class:EchoServer	file:
+doLogout	serverlua.cc	/^void doLogout(int userId,const TcpConnectionPtr& conn){$/;"	f	class:EchoServer	file:
+doLogout	ssdbluachatserver.cpp	/^void CppServer::doLogout(const TcpConnectionPtr& conn)$/;"	f	class:CppServer
+dummy	libconfig.lua	/^	local function dummy() end$/;"	f
+emTLVNodeType	tlvdemo.cc	/^enum emTLVNodeType  $/;"	g	file:
+emTlvAge	tlvdemo.cc	/^    emTlvAge,           \/\/年龄  $/;"	e	enum:emTLVNodeType	file:
+emTlvColor	tlvdemo.cc	/^    emTlvColor          \/\/颜色 1 白色 2 黑色  $/;"	e	enum:emTLVNodeType	file:
+emTlvNNone	tlvdemo.cc	/^    emTlvNNone = 0,  $/;"	e	enum:emTLVNodeType	file:
+emTlvNRoot	tlvdemo.cc	/^    emTlvNRoot,         \/\/根节点  $/;"	e	enum:emTLVNodeType	file:
+emTlvName	tlvdemo.cc	/^    emTlvName,          \/\/名字  $/;"	e	enum:emTLVNodeType	file:
+encodeStr	scodec.cpp	/^const char* encodeStr(char* str,const char* key){$/;"	f	namespace:Scodec
+encodeStr	scodec.cpp	/^std::string encodeStr(std::string str,std::string key){$/;"	f	namespace:Scodec
+encryptDecrypt	strxor.cpp	/^std::string encryptDecrypt(std::string toCodec,char* k) {$/;"	f
+error	lua_utility.cpp	/^void Lua::error(lua_State* L, char const* fmt, ...) {$/;"	f	class:Lua
+escape	bak.serverlua.cc	/^    void escape(int roomNum,int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+escape	chatserverlua.cc	/^        void escape(int roomNum,int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+escape	server.cc	/^    void escape(int roomNum,int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+escape	serverlua.cc	/^        void escape(int roomNum,int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+ev_loop_t	file_watcher.h	/^typedef struct ev_loop ev_loop_t;$/;"	t	namespace:cp	typeref:struct:cp::ev_loop
+ev_w_file_timeout_	file_watcher.h	/^    ev_timer ev_w_file_timeout_;$/;"	m	class:cp::file_watcher_t
+eval	lua_utility.cpp	/^bool Lua::eval(lua_State* L, char const* script) {$/;"	f	class:Lua
+explode	WebSocket/WebSocket.cpp	/^vector<string> WebSocket::explode(	$/;"	f	class:WebSocket
+fd	FileTools.cpp	/^    static int fd;$/;"	m	class:FileTools	file:
+fd	FileTools.cpp	/^int FileTools::fd = 0;$/;"	m	class:FileTools	file:
+fetch_	lua_utility.hpp	/^inline    int      Lua::fetch_(lua_State* L, int n) { return luaL_checkint(L, n); }$/;"	f	class:script::Lua
+fetch_	lua_utility.hpp	/^inline bool        Lua::fetch_(lua_State* L, int n) {$/;"	f	class:script::Lua
+fetch_	lua_utility.hpp	/^inline char const* Lua::fetch_(lua_State* L, int n) { return luaL_checkstring(L, n); }$/;"	f	class:script::Lua
+fetch_	lua_utility.hpp	/^inline double      Lua::fetch_(lua_State* L, int n) { return luaL_checknumber(L, n); }$/;"	f	class:script::Lua
+file_name_	file_watcher.h	/^    std::string file_name_;$/;"	m	class:cp::file_watcher_t
+file_timeout_cb	file_watcher.cpp	/^  void file_watcher_t::file_timeout_cb($/;"	f	class:cp::file_watcher_t
+file_watcher_close	file_watcher.cpp	/^  void file_watcher_t::file_watcher_close()$/;"	f	class:cp::file_watcher_t
+file_watcher_init	file_watcher.cpp	/^  void file_watcher_t::file_watcher_init( ev_loop_t *loop )$/;"	f	class:cp::file_watcher_t
+file_watcher_t	file_watcher.cpp	/^  file_watcher_t::file_watcher_t()$/;"	f	class:cp::file_watcher_t
+file_watcher_t	file_watcher.h	/^class file_watcher_t$/;"	c	namespace:cp
+gc_T	lunar.hpp	/^  static int gc_T(lua_State *L) {$/;"	f	class:Lunar
+getAccessTime	ssdbluachatserver.cpp	/^struct stat getAccessTime()$/;"	f
+getArgs	libconfig.lua	/^local function getArgs(...)$/;"	f
+getConfig	chatserverlua.cc	/^void getConfig(const char *key,T &v)$/;"	f
+getFrame	WebSocket/WebSocket.cpp	/^WebSocketFrameType WebSocket::getFrame(unsigned char* in_buffer, int in_length, unsigned char* out_buffer, int out_size, int* out_length)$/;"	f	class:WebSocket
+getInstance	luaSingle.h	/^        static luaSingle& getInstance()$/;"	f	class:luaSingle
+getInstance	single.cpp	/^        static ssdbSingle& getInstance()$/;"	f	class:ssdbSingle
+getMid	bak.serverlua.cc	/^    int getMid(string cn)$/;"	f	class:EchoServer	file:
+getMid	chatserverlua.cc	/^        double getMid(string cn)$/;"	f	class:EchoServer	file:
+getMid	server.cc	/^    int getMid(string cn)$/;"	f	class:EchoServer	file:
+getMid	serverlua.cc	/^        double getMid(string cn)$/;"	f	class:EchoServer	file:
+getPeerAddr	tcon.cpp	/^int TCON::getPeerAddr(lua_State *L){$/;"	f	class:TCON
+getRet	lua_utility.hpp	/^    static std::vector<std::string> getRet(lua_State* L,char const*  funcname,T2 a1,T3 a2,T4 a3){$/;"	f	struct:script::Lua
+get_file_name	file_watcher.cpp	/^  std::string file_watcher_t::get_file_name()$/;"	f	class:cp::file_watcher_t
+get_file_timeout	file_watcher.cpp	/^  double file_watcher_t::get_file_timeout()$/;"	f	class:cp::file_watcher_t
+get_results_	lua_utility.hpp	/^    static inline void get_results_(lua_State* L, ReturnObject& res)$/;"	f	struct:script::Lua
+get_results_	lua_utility.hpp	/^    static inline void get_results_(lua_State* L, ReturnObject& res){}$/;"	f	struct:script::Lua
+getcwd 	WebSocket/wsjit.lua	/^getcwd = function(buf, size) return ffi.string( ffi.C.getcwd(buf, size) ) end$/;"	f
+handleLogout	C2lua.cpp	/^int C2lua::handleLogout(lua_State *L){$/;"	f	class:C2lua
+handleLogout	ssdbluachatserver.cpp	/^void CppServer::handleLogout(const TcpConnectionPtr* conn,std::string& reason){$/;"	f	class:CppServer
+hasChanged	FileTools.cpp	/^bool FileTools::hasChanged(int wd)$/;"	f	class:FileTools
+hei	tlvnode.cc	/^    int hei;$/;"	m	struct:TLV	file:
+hei	tlvnode.cc	/^    int hei;$/;"	m	struct:TLVComplex	file:
+hexchartobit	scodec.cpp	/^std::string hexchartobit(char c)$/;"	f	namespace:Scodec
+hextobit	scodec.cpp	/^std::string hextobit(std::string& str){$/;"	f	namespace:Scodec
+hextostr	scodec.cpp	/^std::string hextostr(std::string& str){$/;"	f	namespace:Scodec
+hexval	WebSocket/md5/md5.hpp	/^const char hexval[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};$/;"	m	namespace:websocketpp
+host	WebSocket/WebSocket.h	/^	string host;$/;"	m	class:WebSocket
+hset	luaSingle.h	/^        int hset(const std::string &name, const std::string &key, const std::string &val)$/;"	f
+iAge	tlvdemo.cc	/^    int iAge;  $/;"	m	struct:_CAT_INFO	file:
+iColor	tlvdemo.cc	/^    int iColor;  $/;"	m	struct:_CAT_INFO	file:
+identifier	luawrapper.hpp	/^    static void (*identifier)(lua_State*, T*);$/;"	m	class:LuaWrapper
+identifier	luawrapper.hpp	/^template <typename T> void (*LuaWrapper<T>::identifier)(lua_State*, T*);$/;"	v
+incField	bak.serverlua.cc	/^    int incField(std::string collection,mongo::BSONObj q,std::string field)$/;"	f	class:EchoServer	file:
+incField	chatserverlua.cc	/^int incField(std::string collection,mongo::BSONObj q,std::string field)$/;"	f	class:EchoServer	file:
+incField	server.cc	/^    int incField(std::string collection,mongo::BSONObj q,std::string field)$/;"	f	class:EchoServer	file:
+incField	serverlua.cc	/^int incField(std::string collection,mongo::BSONObj q,std::string field)$/;"	f	class:EchoServer	file:
+informRival	bak.serverlua.cc	/^    void informRival(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+informRival	chatserverlua.cc	/^        void informRival(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+informRival	server.cc	/^    void informRival(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+informRival	serverlua.cc	/^        void informRival(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+isRequest	WebSocket/WebSocket.h	/^    bool isRequest;$/;"	m	class:WebSocket
+isWsClient	C2lua.cpp	/^int C2lua::isWsClient(lua_State *L){$/;"	f	class:C2lua
+isWsClient	ssdbluachatserver.cpp	/^bool CppServer::isWsClient(const TcpConnectionPtr* conn){$/;"	f	class:CppServer
+is_base64	WebSocket/base64/base64.cpp	/^static inline bool is_base64(unsigned char c) {$/;"	f	file:
+kHeaderLen	codec.h	/^        const static size_t kHeaderLen = sizeof(int32_t);$/;"	m	class:LengthHeaderCodec
+key	WebSocket/WebSocket.h	/^	string key;$/;"	m	class:WebSocket
+key	testclient.cc	/^char key[5] = {'m','n','t','e','c'};$/;"	v
+len	tlvnode.cc	/^    uint16_t len;$/;"	m	struct:TLV	file:
+len	tlvnode.cc	/^    uint16_t len;$/;"	m	struct:TLVComplex	file:
+len	tlvnode.cc	/^    uint16_t len;$/;"	m	struct:TLVNODE	file:
+lib:CreateButton	libconfig.lua	/^	function lib:CreateButton(...)$/;"	f
+lib:CreateCheckBox	libconfig.lua	/^	function lib:CreateCheckBox(...)$/;"	f
+lib:CreateDropDown	libconfig.lua	/^	function lib:CreateDropDown(...)$/;"	f
+lib:CreatePalette	libconfig.lua	/^	function lib:CreatePalette(...)$/;"	f
+lib:CreateSlider	libconfig.lua	/^	function lib:CreateSlider(...)$/;"	f
+lib:Refresh	libconfig.lua	/^function lib:Refresh()$/;"	f
+loadConfig	ssdbluachatserver.cpp	/^void CppServer::loadConfig()$/;"	f	class:CppServer
+loadLua	chatserverlua.cc	/^        void loadLua()$/;"	f	class:EchoServer
+loadLua	client.cpp	/^void ChatClient::loadLua(int firstTime)$/;"	f	class:ChatClient
+loadLua	serverlua.cc	/^        void loadLua()$/;"	f	class:EchoServer
+loadLua	ssdbluachatserver.cpp	/^void CppServer::loadLua(int firstTime)$/;"	f	class:CppServer
+loadMap	map.cpp	/^loadMap(){$/;"	f
+loadMap	ssdbluachatserver.cpp	/^void CppServer::loadMap(){$/;"	f	class:CppServer
+lockOff	WebSocket/websocketclient/websocketclient.html	/^      function lockOff()$/;"	f
+lockOn	WebSocket/websocketclient/websocketclient.html	/^      function lockOn(str) $/;"	f
+loop_	client1.cc	/^  EventLoop* loop_;   $/;"	m	class:EchoClient	file:
+loop_	client_bak.cc	/^  EventLoop* loop_;$/;"	m	class:EchoClient	file:
+lsendMsg	ssdbluachatserver.cpp	/^void CppServer::lsendMsg(const TcpConnectionPtr* conn,std::string& msg){$/;"	f	class:CppServer
+luaSingle	luaSingle.h	/^        luaSingle():L(luaL_newstate()){$/;"	f	class:luaSingle
+luaSingle	luaSingle.h	/^class luaSingle$/;"	c
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<T*, typename LUAW_STD::enable_if<LUAW_STD::is_class<T>::value>::type>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<T, typename LUAW_STD::enable_if<LUAW_STD::is_enum<T>::value>::type>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<bool>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<char>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<const char*>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<double>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<float>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<int>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<unsigned char>$/;"	s
+luaU_Impl	luawrapperutil.hpp	/^struct luaU_Impl<unsigned int>$/;"	s
+luaU_IntPack	luawrapperutil.hpp	/^template<int... ints> struct luaU_IntPack { };$/;"	s
+luaU_MakeIntRangeType	luawrapperutil.hpp	/^template<int start, int count, int... tail> struct luaU_MakeIntRangeType { typedef typename luaU_MakeIntRangeType<start, count-1, start+count-1, tail...>::type type; };$/;"	s
+luaU_MakeIntRangeType	luawrapperutil.hpp	/^template<int start, int... tail> struct luaU_MakeIntRangeType<start, 0, tail...> { typedef luaU_IntPack<tail...> type; };$/;"	s
+luaU_MemberFuncWrapper	luawrapperutil.hpp	/^struct luaU_MemberFuncWrapper<ReturnType (T::*)(Args...), MemberFunc>$/;"	s
+luaU_MemberFuncWrapper	luawrapperutil.hpp	/^struct luaU_MemberFuncWrapper<void(T::*)(Args...), MemberFunc>$/;"	s
+luaU_StaticFuncWrapper	luawrapperutil.hpp	/^struct luaU_StaticFuncWrapper<ReturnType(*)(Args...), Func>$/;"	s
+luaU_StaticFuncWrapper	luawrapperutil.hpp	/^struct luaU_StaticFuncWrapper<void(*)(Args...), Func>$/;"	s
+luaU_build	luawrapperutil.hpp	/^int luaU_build(lua_State* L)$/;"	f
+luaU_check	luawrapperutil.hpp	/^    static T    luaU_check(lua_State* L, int      index) { return static_cast<T>(luaL_checkinteger  (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static T*   luaU_check( lua_State* L, int index) { return luaW_check<T>(L, index); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static bool luaU_check(lua_State* L, int         index) { return lua_toboolean  (L, index) != 0; }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static char luaU_check(lua_State* L, int         index) { return static_cast<char>(luaL_checkinteger(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static const char* luaU_check(lua_State* L, int                index) { return luaL_checkstring(L, index); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static double luaU_check(lua_State* L, int           index) { return static_cast<double>(luaL_checknumber(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static float luaU_check(lua_State* L, int          index) { return static_cast<float>(luaL_checknumber(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static int  luaU_check(lua_State* L, int        index) { return static_cast<int>(luaL_checkinteger(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static unsigned char luaU_check(lua_State* L, int                  index) { return static_cast<unsigned char>(luaL_checkinteger(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^    static unsigned int luaU_check(lua_State* L, int                 index) { return static_cast<unsigned int>(luaL_checkinteger(L, index)); }$/;"	f	struct:luaU_Impl
+luaU_check	luawrapperutil.hpp	/^template<typename U> U    luaU_check(lua_State* L, int      index) { return luaU_Impl<U>::luaU_check(L, index); }$/;"	f
+luaU_checkfield	luawrapperutil.hpp	/^inline U luaU_checkfield(lua_State* L, int index, const char* field)$/;"	f
+luaU_clone	luawrapperutil.hpp	/^int luaU_clone(lua_State* L)$/;"	f
+luaU_func	luawrapperutil.hpp	619;"	d
+luaU_funcsig	luawrapperutil.hpp	620;"	d
+luaU_get	luawrapperutil.hpp	/^int luaU_get(lua_State* L)$/;"	f
+luaU_getfield	luawrapperutil.hpp	/^inline U luaU_getfield(lua_State* L, int index, const char* field)$/;"	f
+luaU_getset	luawrapperutil.hpp	/^int luaU_getset(lua_State* L)$/;"	f
+luaU_getsetandrelease	luawrapperutil.hpp	/^int luaU_getsetandrelease(lua_State* L)$/;"	f
+luaU_makeIntRange	luawrapperutil.hpp	/^template<int start, int count> inline typename luaU_MakeIntRangeType<start, count>::type luaU_makeIntRange() { return typename luaU_MakeIntRangeType<start, count>::type(); }$/;"	f
+luaU_opt	luawrapperutil.hpp	/^U luaU_opt(lua_State* L, int index, const U& fallback = U())$/;"	f
+luaU_optfield	luawrapperutil.hpp	/^inline U luaU_optfield(lua_State* L, int index, const char* field, const U& fallback = U())$/;"	f
+luaU_push	luawrapperutil.hpp	/^    static void          luaU_push (lua_State* L, const unsigned char& value) {                                   lua_pushinteger  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void         luaU_push (lua_State* L, const unsigned int& value) {                                  lua_pushinteger  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void        luaU_push (lua_State* L, const char* const& value) {        lua_pushstring  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void   luaU_push (lua_State* L, const double& value) {                            lua_pushnumber  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void  luaU_push (lua_State* L, const float& value) {                           lua_pushnumber  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push ( lua_State* L, T*  value) {        luaW_push <T>(L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push ( lua_State* L, T*& value) {        luaW_push <T>(L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push (lua_State* L, const T& value) {        lua_pushnumber(L, static_cast<int>(value   )); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push (lua_State* L, const bool& value) {        lua_pushboolean(L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push (lua_State* L, const char& value) {                          lua_pushinteger  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^    static void luaU_push (lua_State* L, const int& value) {                         lua_pushinteger  (L, value); }$/;"	f	struct:luaU_Impl
+luaU_push	luawrapperutil.hpp	/^template<typename U> void luaU_push (lua_State* L, const U& value) {        luaU_Impl<U>::luaU_push (L, value); }$/;"	f
+luaU_set	luawrapperutil.hpp	/^int luaU_set(lua_State* L)$/;"	f
+luaU_setandrelease	luawrapperutil.hpp	/^int luaU_setandrelease(lua_State* L)$/;"	f
+luaU_setfield	luawrapperutil.hpp	/^inline void luaU_setfield(lua_State* L, int index, const char* field, U val)$/;"	f
+luaU_staticfunc	luawrapperutil.hpp	622;"	d
+luaU_staticfuncsig	luawrapperutil.hpp	623;"	d
+luaU_store	luawrapperutil.hpp	/^void luaU_store(lua_State* L, int index, const char* storagetable, const char* key = NULL)$/;"	f
+luaU_to	luawrapperutil.hpp	/^    static T    luaU_to   (lua_State* L, int      index) { return static_cast<T>(lua_tointeger      (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static T*   luaU_to   ( lua_State* L, int index) { return luaW_to   <T>(L, index); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static bool luaU_to   (lua_State* L, int         index) { return lua_toboolean  (L, index) != 0; }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static char luaU_to   (lua_State* L, int         index) { return static_cast<char>(lua_tointeger    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static const char* luaU_to   (lua_State* L, int                index) { return lua_tostring    (L, index); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static double luaU_to   (lua_State* L, int           index) { return static_cast<double>(lua_tonumber    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static float luaU_to   (lua_State* L, int          index) { return static_cast<float>(lua_tonumber    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static int  luaU_to   (lua_State* L, int        index) { return static_cast<int>(lua_tointeger    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static unsigned char luaU_to   (lua_State* L, int                  index) { return static_cast<unsigned char>(lua_tointeger    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^    static unsigned int luaU_to   (lua_State* L, int                 index) { return static_cast<unsigned int>(lua_tointeger    (L, index)); }$/;"	f	struct:luaU_Impl
+luaU_to	luawrapperutil.hpp	/^template<typename U> U    luaU_to   (lua_State* L, int      index) { return luaU_Impl<U>::luaU_to   (L, index); }$/;"	f
+luaW_Userdata	luawrapper.hpp	/^    luaW_Userdata(void* vptr = NULL, luaW_Userdata (*udcast)(const luaW_Userdata&) = NULL)$/;"	f	struct:luaW_Userdata
+luaW_Userdata	luawrapper.hpp	/^struct luaW_Userdata$/;"	s
+luaW_cast	luawrapper.hpp	/^luaW_Userdata luaW_cast(const luaW_Userdata& obj)$/;"	f
+luaW_check	luawrapper.hpp	/^T* luaW_check(lua_State* L, int index, bool strict = false)$/;"	f
+luaW_correctindex	luawrapper.hpp	/^inline int luaW_correctindex(lua_State* L, int index, int correction)$/;"	f
+luaW_defaultallocator	luawrapper.hpp	/^T* luaW_defaultallocator(lua_State*)$/;"	f
+luaW_defaultdeallocator	luawrapper.hpp	/^void luaW_defaultdeallocator(lua_State*, T* obj)$/;"	f
+luaW_defaultidentifier	luawrapper.hpp	/^void luaW_defaultidentifier(lua_State* L, T* obj)$/;"	f
+luaW_extend	luawrapper.hpp	/^void luaW_extend(lua_State* L)$/;"	f
+luaW_gc	luawrapper.hpp	/^int luaW_gc(lua_State* L)$/;"	f
+luaW_hold	luawrapper.hpp	/^bool luaW_hold(lua_State* L, T* obj)$/;"	f
+luaW_identify	luawrapper.hpp	/^void luaW_identify(lua_State* L, T* obj)$/;"	f
+luaW_index	luawrapper.hpp	/^int luaW_index(lua_State* L)$/;"	f
+luaW_initialize	luawrapper.hpp	/^inline void luaW_initialize(lua_State* L)$/;"	f
+luaW_is	luawrapper.hpp	/^bool luaW_is(lua_State *L, int index, bool strict = false)$/;"	f
+luaW_new	luawrapper.hpp	/^inline int luaW_new(lua_State* L, int numargs)$/;"	f
+luaW_new	luawrapper.hpp	/^int luaW_new(lua_State* L)$/;"	f
+luaW_newindex	luawrapper.hpp	/^int luaW_newindex(lua_State* L)$/;"	f
+luaW_opt	luawrapper.hpp	/^T* luaW_opt(lua_State* L, int index, T* fallback = NULL, bool strict = false)$/;"	f
+luaW_postconstructor	luawrapper.hpp	/^void luaW_postconstructor(lua_State* L, int numargs)$/;"	f
+luaW_postconstructorinternal	luawrapper.hpp	/^void luaW_postconstructorinternal(lua_State* L, int numargs)$/;"	f
+luaW_push	luawrapper.hpp	/^void luaW_push(lua_State* L, T* obj)$/;"	f
+luaW_register	luawrapper.hpp	/^void luaW_register(lua_State* L, const char* classname, const luaL_Reg* table, const luaL_Reg* metatable, T* (*allocator)(lua_State*) = luaW_defaultallocator<T>, void (*deallocator)(lua_State*, T*) = luaW_defaultdeallocator<T>, void (*identifier)(lua_State*, T*) = luaW_defaultidentifier<T>)$/;"	f
+luaW_registerfuncs	luawrapper.hpp	/^inline void luaW_registerfuncs(lua_State* L, const luaL_Reg defaulttable[], const luaL_Reg table[])$/;"	f
+luaW_release	luawrapper.hpp	/^void luaW_release(lua_State* L, T* obj)$/;"	f
+luaW_release	luawrapper.hpp	/^void luaW_release(lua_State* L, int index)$/;"	f
+luaW_remove_cr	luawrapperutil.hpp	/^struct luaW_remove_cr$/;"	s
+luaW_setfuncs	luawrapper.hpp	/^void luaW_setfuncs(lua_State* L, const char* classname, const luaL_Reg* table, const luaL_Reg* metatable, T* (*allocator)(lua_State*) = luaW_defaultallocator<T>, void (*deallocator)(lua_State*, T*) = luaW_defaultdeallocator<T>, void (*identifier)(lua_State*, T*) = luaW_defaultidentifier<T>)$/;"	f
+luaW_to	luawrapper.hpp	/^T* luaW_to(lua_State* L, int index, bool strict = false)$/;"	f
+luaW_wrapperfield	luawrapper.hpp	/^inline void luaW_wrapperfield(lua_State* L, const char* field)$/;"	f
+lua_boolexpr	lua_utility.cpp	/^int lua_boolexpr( lua_State* L, const char* expr ) {$/;"	f
+lua_intexpr	lua_utility.cpp	/^int lua_intexpr( lua_State* L, const char* expr ) {$/;"	f
+lua_numberexpr	lua_utility.cpp	/^int lua_numberexpr( lua_State* L, const char* expr, double* out ) {$/;"	f
+lua_stringexpr	lua_utility.cpp	/^const char* lua_stringexpr( lua_State* L, const char* expr){$/;"	f
+lua_userdata_cast	LuaMsg.cc	10;"	d	file:
+m_pData	tlv.h	/^    char *m_pData;  $/;"	m	class:CTlvPacket
+m_pEndData	tlv.h	/^    char *m_pEndData;  $/;"	m	class:CTlvPacket
+m_pReadPtr	tlv.h	/^    char *m_pReadPtr;  $/;"	m	class:CTlvPacket
+m_pWritePtr	tlv.h	/^    char *m_pWritePtr;  $/;"	m	class:CTlvPacket
+m_uiLength	tlv.h	/^    unsigned int m_uiLength;  $/;"	m	class:CTlvPacket
+main	WebSocket/sha1/sha.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	WebSocket/sha1/shacmp.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	WebSocket/sha1/shatest.cpp	/^int main()$/;"	f
+main	bak.serverlua.cc	/^int main(int argc, char* argv[])$/;"	f
+main	chatserverlua.cc	/^int main(int argc, char* argv[])$/;"	f
+main	client.cc	/^int main(int argc, char* argv[])$/;"	f
+main	client1.cc	/^int main(int argc, char* argv[])$/;"	f
+main	client_bak.cc	/^int main(int argc, char* argv[])$/;"	f
+main	server.cc	/^int main(int argc, char* argv[])$/;"	f
+main	server_bak.cc	/^int main(int argc, char* argv[])$/;"	f
+main	serverlua.cc	/^int main(int argc, char* argv[])$/;"	f
+main	ssdbluachat.cc	/^int main(int argc, char** argv)$/;"	f
+main	testclient.cc	/^int main(int argc, char* argv[])$/;"	f
+main	testcodec.cc	/^int main(){$/;"	f
+main	tlvdemo.cc	/^int main(int argc, char* argv[])  $/;"	f
+main	tlvnode.cc	/^int main()$/;"	f
+makeFrame	WebSocket/WebSocket.cpp	/^int WebSocket::makeFrame(WebSocketFrameType frame_type, unsigned char* msg, int msg_length, unsigned char* buffer, int buffer_size)$/;"	f	class:WebSocket
+map	map.hpp	/^class map{$/;"	c
+map	ssdbluachatserver.hpp	/^        Tmx::Map *map;$/;"	m	class:CppServer
+mapFileName	ssdbluachatserver.hpp	/^        std::string mapFileName;$/;"	m	class:CppServer
+md5_INCLUDED	WebSocket/md5/md5.h	51;"	d
+md5_append	WebSocket/md5/md5.c	/^md5_append(md5_state_t *pms, const md5_byte_t *data, size_t nbytes)$/;"	f
+md5_byte_t	WebSocket/md5/md5.h	/^typedef unsigned char md5_byte_t; \/* 8-bit byte *\/$/;"	t
+md5_finish	WebSocket/md5/md5.c	/^md5_finish(md5_state_t *pms, md5_byte_t digest[16])$/;"	f
+md5_hash_hex	WebSocket/md5/md5.hpp	/^inline std::string md5_hash_hex(const std::string& input) {$/;"	f	namespace:websocketpp
+md5_hash_string	WebSocket/md5/md5.hpp	/^inline std::string md5_hash_string(const std::string& s) {$/;"	f	namespace:websocketpp
+md5_init	WebSocket/md5/md5.c	/^md5_init(md5_state_t *pms)$/;"	f
+md5_process	WebSocket/md5/md5.c	/^md5_process(md5_state_t *pms, const md5_byte_t *data \/*[64]*\/)$/;"	f	file:
+md5_state_s	WebSocket/md5/md5.h	/^typedef struct md5_state_s {$/;"	s
+md5_state_t	WebSocket/md5/md5.h	/^} md5_state_t;$/;"	t	typeref:struct:md5_state_s
+md5_word_t	WebSocket/md5/md5.h	/^typedef unsigned int md5_word_t; \/* 32-bit word *\/$/;"	t
+messageCallback_	LuaMsg.cc	/^        StringMessageCallback messageCallback_;$/;"	m	class:LuaMsg	file:
+messageCallback_	LuaMsg.h	/^        StringMessageCallback messageCallback_;$/;"	m	class:LuaMsg
+messageCallback_	codec.h	/^        StringMessageCallback messageCallback_;$/;"	m	class:LengthHeaderCodec
+message_	client1.cc	/^  string message_;$/;"	m	class:EchoClient	file:
+message_	client_bak.cc	/^  string message_;$/;"	m	class:EchoClient	file:
+methods	C2lua.cpp	/^Lunar<C2lua>::RegType C2lua::methods[]={$/;"	m	class:C2lua	file:
+methods	C2lua.hpp	/^        static Lunar<C2lua>::RegType methods[];$/;"	m	class:C2lua
+methods	tcon.cpp	/^Lunar<TCON>::RegType TCON::methods[] ={$/;"	m	class:TCON	file:
+methods	tcon.hpp	/^    static Lunar<TCON>::RegType methods[];$/;"	m	class:TCON
+methods	tstamp.cpp	/^Lunar<TSTAMP>::RegType TSTAMP::methods[] ={$/;"	m	class:TSTAMP	file:
+methods	tstamp.hpp	/^    static Lunar<TSTAMP>::RegType methods[];$/;"	m	class:TSTAMP
+mfp	lunar.hpp	/^  typedef int (T::*mfp)(lua_State *L);$/;"	t	class:Lunar
+mfunc	lunar.hpp	/^  typedef struct { const char *name; mfp mfunc; } RegType;$/;"	m	struct:Lunar::__anon2
+mntecsecret	ssdbluachatserver.cpp	/^char mntecsecret[10] = {0};$/;"	v
+mongons	bak.serverlua.cc	/^    std::string mongons;$/;"	m	class:EchoServer	file:
+mongons	chatserverlua.cc	/^        std::string mongons;$/;"	m	class:EchoServer	file:
+mongons	serverlua.cc	/^        std::string mongons;$/;"	m	class:EchoServer	file:
+mongopasswd	chatserverlua.cc	/^        std::string mongopasswd;$/;"	m	class:EchoServer	file:
+mongopasswd	serverlua.cc	/^        std::string mongopasswd;$/;"	m	class:EchoServer	file:
+mongouser	chatserverlua.cc	/^        std::string mongouser;$/;"	m	class:EchoServer	file:
+mongouser	serverlua.cc	/^        std::string mongouser;$/;"	m	class:EchoServer	file:
+msgUList	ssdbluachatserver.hpp	/^        msgUserList msgUList;$/;"	m	class:CppServer
+msgUserList	ssdbluachatserver.hpp	/^        typedef std::map<TcpConnectionPtr,int> msgUserList;$/;"	t	class:CppServer
+msghdl	ssdbluachatserver.cpp	/^void CppServer::msghdl(const TcpConnectionPtr& conn,char *msg){$/;"	f	class:CppServer
+mt.answerHandshake	WebSocket/wsjit.lua	/^function mt.answerHandshake(self)$/;"	f
+mt.parseHandshake	WebSocket/wsjit.lua	/^function mt.parseHandshake(self,input_frame)$/;"	f
+mt.ws_getFrame	WebSocket/wsjit.lua	/^function mt.ws_getFrame(self,in_buffer,in_length,out_buffer,out_size,out_length)$/;"	f
+mt.ws_makeFrame	WebSocket/wsjit.lua	/^function mt.ws_makeFrame(self,frame_type,msg,msg_len,buffer,buffer_len)$/;"	f
+mutex_	client.hpp	/^        muduo::MutexLock mutex_;$/;"	m	class:ChatClient
+mutex_	testclient.cc	/^  MutexLock mutex_;$/;"	m	class:ChatClient	file:
+n_ev_accessed_	file_watcher.h	/^    int n_ev_accessed_;$/;"	m	class:cp::file_watcher_t
+n_ev_attrib_changed_	file_watcher.h	/^    int n_ev_attrib_changed_;$/;"	m	class:cp::file_watcher_t
+n_ev_closed_nowrite_	file_watcher.h	/^    int n_ev_closed_nowrite_;$/;"	m	class:cp::file_watcher_t
+n_ev_closed_write_	file_watcher.h	/^    int n_ev_closed_write_;$/;"	m	class:cp::file_watcher_t
+n_ev_created_	file_watcher.h	/^    int n_ev_created_;$/;"	m	class:cp::file_watcher_t
+n_ev_deleted_	file_watcher.h	/^    int n_ev_deleted_;$/;"	m	class:cp::file_watcher_t
+n_ev_modified_	file_watcher.h	/^    int n_ev_modified_;$/;"	m	class:cp::file_watcher_t
+n_ev_moved_from_	file_watcher.h	/^    int n_ev_moved_from_;$/;"	m	class:cp::file_watcher_t
+n_ev_moved_to_	file_watcher.h	/^    int n_ev_moved_to_;$/;"	m	class:cp::file_watcher_t
+n_ev_opened	file_watcher.h	/^    int n_ev_opened;$/;"	m	class:cp::file_watcher_t
+n_ev_timeout_	file_watcher.h	/^    int n_ev_timeout_;$/;"	m	class:cp::file_watcher_t
+name	lunar.hpp	/^  typedef struct { const char *name; mfp mfunc; } RegType;$/;"	m	struct:Lunar::__anon2
+new_T	lunar.hpp	/^  static int new_T(lua_State *L) {$/;"	f	class:Lunar
+now	tstamp.cpp	/^int TSTAMP::now(lua_State *L){$/;"	f	class:TSTAMP
+numThreads	bak.serverlua.cc	/^int numThreads = 4;$/;"	v
+numThreads	chatserverlua.cc	/^int numThreads = 4;$/;"	v
+numThreads	server.cc	/^int numThreads = 4;$/;"	v
+numThreads	server_bak.cc	/^int numThreads = 4;$/;"	v
+numThreads	serverlua.cc	/^int numThreads = 4;$/;"	v
+numThreads	ssdbluachat.cc	/^int numThreads = 4;$/;"	v
+oldCounter_	bak.serverlua.cc	/^    int64_t oldCounter_;$/;"	m	class:EchoServer	file:
+oldCounter_	chatserverlua.cc	/^        int64_t oldCounter_;$/;"	m	class:EchoServer	file:
+oldCounter_	server.cc	/^    int64_t oldCounter_;$/;"	m	class:EchoServer	file:
+oldCounter_	server_bak.cc	/^  int64_t oldCounter_;$/;"	m	class:EchoServer	file:
+oldCounter_	serverlua.cc	/^        int64_t oldCounter_;$/;"	m	class:EchoServer	file:
+oldCounter_	ssdbluachatserver.hpp	/^        int64_t oldCounter_;$/;"	m	class:CppServer
+onConnection	bak.serverlua.cc	/^    void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+onConnection	chatserverlua.cc	/^        void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+onConnection	client.cpp	/^void ChatClient::onConnection(const TcpConnectionPtr& conn)$/;"	f	class:ChatClient
+onConnection	client1.cc	/^  void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoClient	file:
+onConnection	client_bak.cc	/^  void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoClient	file:
+onConnection	server.cc	/^    void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+onConnection	server_bak.cc	/^  void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+onConnection	serverlua.cc	/^        void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+onConnection	ssdbluachatserver.cpp	/^void CppServer::onConnection(const TcpConnectionPtr& conn)$/;"	f	class:CppServer
+onConnection	testclient.cc	/^  void onConnection(const TcpConnectionPtr& conn)$/;"	f	class:ChatClient	file:
+onMessage	LuaMsg.cpp	/^void LuaMsg::onMessage(const muduo::net::TcpConnectionPtr& conn,$/;"	f	class:LuaMsg
+onMessage	bak.serverlua.cc	/^    void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:EchoServer	file:
+onMessage	chatserverlua.cc	/^        void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:EchoServer	file:
+onMessage	client.cpp	/^void ChatClient::onMessage(const muduo::net::TcpConnectionPtr& conn,muduo::net::Buffer* buf,muduo::Timestamp receiveTime)$/;"	f	class:ChatClient
+onMessage	client1.cc	/^  void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp time)$/;"	f	class:EchoClient	file:
+onMessage	client_bak.cc	/^  void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp time)$/;"	f	class:EchoClient	file:
+onMessage	codec.h	/^        void onMessage(const muduo::net::TcpConnectionPtr& conn,$/;"	f	class:LengthHeaderCodec
+onMessage	server.cc	/^    void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:EchoServer	file:
+onMessage	server_bak.cc	/^  void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:EchoServer	file:
+onMessage	serverlua.cc	/^        void onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:EchoServer	file:
+onMessage	ssdbluachatserver.cpp	/^void CppServer::onMessage(const TcpConnectionPtr& conn, Buffer* buf, Timestamp)$/;"	f	class:CppServer
+onMessage	testclient.cc	/^  void onMessage(const TcpConnectionPtr&,$/;"	f	class:ChatClient	file:
+on_file_accessed	file_watcher.h	/^    virtual void on_file_accessed(){};$/;"	f	class:cp::file_watcher_t
+on_file_accessed_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_accessed_cb()$/;"	f	class:cp::file_watcher_t
+on_file_attrib_changed	file_watcher.h	/^    virtual void on_file_attrib_changed(){};$/;"	f	class:cp::file_watcher_t
+on_file_attrib_changed_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_attrib_changed_cb()$/;"	f	class:cp::file_watcher_t
+on_file_closed_nowrite	file_watcher.h	/^    virtual void on_file_closed_nowrite(){};$/;"	f	class:cp::file_watcher_t
+on_file_closed_nowrite_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_closed_nowrite_cb()$/;"	f	class:cp::file_watcher_t
+on_file_closed_write	file_watcher.h	/^    virtual void on_file_closed_write(){};$/;"	f	class:cp::file_watcher_t
+on_file_closed_write_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_closed_write_cb()$/;"	f	class:cp::file_watcher_t
+on_file_created	file_watcher.h	/^    virtual void on_file_created(){};$/;"	f	class:cp::file_watcher_t
+on_file_created_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_created_cb()$/;"	f	class:cp::file_watcher_t
+on_file_deleted	file_watcher.h	/^    virtual void on_file_deleted(){};$/;"	f	class:cp::file_watcher_t
+on_file_deleted_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_deleted_cb()$/;"	f	class:cp::file_watcher_t
+on_file_modified	file_watcher.h	/^    virtual void on_file_modified(){};$/;"	f	class:cp::file_watcher_t
+on_file_modified_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_modified_cb()$/;"	f	class:cp::file_watcher_t
+on_file_moved_from	file_watcher.h	/^    virtual void on_file_moved_from(){};$/;"	f	class:cp::file_watcher_t
+on_file_moved_from_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_moved_from_cb()$/;"	f	class:cp::file_watcher_t
+on_file_moved_to	file_watcher.h	/^    virtual void on_file_moved_to(){};$/;"	f	class:cp::file_watcher_t
+on_file_moved_to_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_moved_to_cb()$/;"	f	class:cp::file_watcher_t
+on_file_opened	file_watcher.h	/^    virtual void on_file_opened(){};$/;"	f	class:cp::file_watcher_t
+on_file_opened_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_opened_cb()$/;"	f	class:cp::file_watcher_t
+on_file_timeout	file_watcher.h	/^    virtual void on_file_timeout(){};$/;"	f	class:cp::file_watcher_t
+on_file_timeout_cb	file_watcher.cpp	/^  void file_watcher_t::on_file_timeout_cb()$/;"	f	class:cp::file_watcher_t
+operator <<	WebSocket/sha1/sha1.cpp	/^SHA1& SHA1::operator<<(const char *message_array)$/;"	f	class:SHA1
+operator <<	WebSocket/sha1/sha1.cpp	/^SHA1& SHA1::operator<<(const char message_element)$/;"	f	class:SHA1
+operator <<	WebSocket/sha1/sha1.cpp	/^SHA1& SHA1::operator<<(const unsigned char *message_array)$/;"	f	class:SHA1
+operator <<	WebSocket/sha1/sha1.cpp	/^SHA1& SHA1::operator<<(const unsigned char message_element)$/;"	f	class:SHA1
+operator lua_State*	bak.serverlua.cc	/^    inline operator lua_State*() {$/;"	f	class:Lua_State
+operator lua_State*	chatserverlua.cc	/^    inline operator lua_State*() {$/;"	f	class:Lua_State
+operator lua_State*	serverlua.cc	/^    inline operator lua_State*() {$/;"	f	class:Lua_State
+origin	WebSocket/WebSocket.h	/^	string origin;$/;"	m	class:WebSocket
+pFileTools	FileTools.cpp	/^} *pFileTools;$/;"	t	typeref:class:FileTools	file:
+pT	lunar.hpp	/^  typedef struct { T *pT; } userdataType;$/;"	m	struct:Lunar::__anon1
+p_loop_	file_watcher.h	/^    ev_loop_t *p_loop_;$/;"	m	class:cp::file_watcher_t
+parseHandshake	WebSocket/WebSocket.cpp	/^WebSocketFrameType WebSocket::parseHandshake(const char* input_frame, int input_len)$/;"	f	class:WebSocket
+parsevargs	FileTools.cpp	17;"	d	file:
+port	ssdbluachat.cc	/^uint16_t port = 40010;$/;"	v
+postconstructorrecurse	luawrapper.hpp	/^    static void (*postconstructorrecurse)(lua_State* L, int numargs);$/;"	m	class:LuaWrapper
+postconstructorrecurse	luawrapper.hpp	/^template <typename T> void (*LuaWrapper<T>::postconstructorrecurse)(lua_State* L, int numargs);$/;"	v
+printMessage	ssdbluachatserver.cpp	/^void printMessage(const std::string& s) {$/;"	f
+printThroughput	bak.serverlua.cc	/^    void printThroughput()$/;"	f	class:EchoServer	file:
+printThroughput	chatserverlua.cc	/^void printThroughput()$/;"	f	class:EchoServer	file:
+printThroughput	server.cc	/^    void printThroughput()$/;"	f	class:EchoServer	file:
+printThroughput	server_bak.cc	/^  void printThroughput()$/;"	f	class:EchoServer	file:
+printThroughput	serverlua.cc	/^void printThroughput()$/;"	f	class:EchoServer	file:
+printThroughput	ssdbluachatserver.cpp	/^void CppServer::printThroughput()$/;"	f	class:CppServer
+protocol	WebSocket/WebSocket.h	/^	string protocol;$/;"	m	class:WebSocket
+push	lunar.hpp	/^  static int push(lua_State *L, T *obj, bool gc=false) {$/;"	f	class:Lunar
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, T const& v){};\/* { \/\/not supported.$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, bool const& v)   { lua_pushboolean(L, v); }$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, char const (&v)[N]) { lua_pushlstring(L, v, N);}$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, char const*& v)  { lua_pushstring(L, v); }$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, double const& v) { lua_pushnumber(L, v); }$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, int const& v)    { lua_pushinteger(L, v); }$/;"	f	struct:script::Lua
+push_	lua_utility.hpp	/^    static inline void push_(lua_State* L, void* const& v)     { lua_pushlightuserdata(L, v); }$/;"	f	struct:script::Lua
+push_args_	lua_utility.hpp	/^    static inline void push_args_(){};$/;"	f	struct:script::Lua
+push_args_	lua_utility.hpp	/^    static inline void push_args_(lua_State* L, Head const& h, Tail const&... t)$/;"	f	struct:script::Lua
+pushuserdata	lunar.hpp	/^  static void *pushuserdata(lua_State *L, void *key, size_t sz) {$/;"	f	class:Lunar
+real_con	tcon.hpp	/^    muduo::net::TcpConnection* real_con;$/;"	m	class:TCON
+real_tstamp	tstamp.hpp	/^    muduo::Timestamp* real_tstamp; $/;"	m	class:TSTAMP
+receivedMessages_	bak.serverlua.cc	/^    AtomicInt64 receivedMessages_;$/;"	m	class:EchoServer	file:
+receivedMessages_	chatserverlua.cc	/^        AtomicInt64 receivedMessages_;$/;"	m	class:EchoServer	file:
+receivedMessages_	server.cc	/^    AtomicInt64 receivedMessages_;$/;"	m	class:EchoServer	file:
+receivedMessages_	server_bak.cc	/^  AtomicInt64 receivedMessages_;$/;"	m	class:EchoServer	file:
+receivedMessages_	serverlua.cc	/^        AtomicInt64 receivedMessages_;$/;"	m	class:EchoServer	file:
+receivedMessages_	ssdbluachatserver.hpp	/^        AtomicInt64 receivedMessages_;$/;"	m	class:CppServer
+reconnect	bak.serverlua.cc	/^    void reconnect(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+reconnect	chatserverlua.cc	/^        void reconnect(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+reconnect	server.cc	/^    void reconnect(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+reconnect	serverlua.cc	/^        void reconnect(int userId,const TcpConnectionPtr& conn)$/;"	f	class:EchoServer	file:
+reconnectMongo	bak.serverlua.cc	/^    void reconnectMongo()$/;"	f	class:EchoServer
+reconnectMongo	chatserverlua.cc	/^        void reconnectMongo()$/;"	f	class:EchoServer
+reconnectMongo	server.cc	/^    void reconnectMongo()$/;"	f	class:EchoServer
+reconnectMongo	serverlua.cc	/^        void reconnectMongo()$/;"	f	class:EchoServer
+removeWatch	FileTools.cpp	/^void FileTools::removeWatch(int wd)$/;"	f	class:FileTools
+resource	WebSocket/WebSocket.h	/^	string resource;$/;"	m	class:WebSocket
+retMsg	ssdbluachatserver.cpp	/^void CppServer::retMsg(std::vector<std::string>& v,const TcpConnectionPtr& conn,int packetID){$/;"	f	class:CppServer
+run_script	lua_utility.cpp	/^bool Lua::run_script(lua_State* L, char const* filename) {$/;"	f	class:Lua
+script	lua_utility.hpp	/^namespace script {$/;"	n
+send	codec.h	/^        void send(muduo::net::TcpConnection* conn,$/;"	f	class:LengthHeaderCodec
+sendMsg	C2lua.cpp	/^int C2lua::sendMsg(lua_State *L){$/;"	f	class:C2lua
+sendMsg	tcon.cpp	/^int TCON::sendMsg(lua_State *L){$/;"	f	class:TCON
+server	C2lua.hpp	/^        CppServer* server;$/;"	m	class:C2lua
+server_	bak.serverlua.cc	/^    TcpServer server_;$/;"	m	class:EchoServer	file:
+server_	chatserverlua.cc	/^        TcpServer server_;$/;"	m	class:EchoServer	file:
+server_	server.cc	/^    TcpServer server_;$/;"	m	class:EchoServer	file:
+server_	server_bak.cc	/^  TcpServer server_;$/;"	m	class:EchoServer	file:
+server_	serverlua.cc	/^        TcpServer server_;$/;"	m	class:EchoServer	file:
+server_	ssdbluachatserver.hpp	/^        TcpServer server_;$/;"	m	class:CppServer
+set	lunar.hpp	/^  static void set(lua_State *L, int table_index, const char *key) {$/;"	f	class:Lunar
+setAccessTime	ssdbluachatserver.cpp	/^void CppServer::setAccessTime()$/;"	f	class:CppServer
+setObject	tcon.cpp	/^void TCON::setObject(lua_State *L){$/;"	f	class:TCON
+set_file_name	file_watcher.cpp	/^  void file_watcher_t::set_file_name( std::string file_name)$/;"	f	class:cp::file_watcher_t
+set_file_timeout	file_watcher.cpp	/^  void file_watcher_t::set_file_timeout( double timeout)$/;"	f	class:cp::file_watcher_t
+split	bak.serverlua.cc	/^void split(vector<string> &tokens,  string &text, char sep) {$/;"	f
+split	chatserverlua.cc	/^void split(vector<string> &tokens,  string &text, char sep) {$/;"	f
+split	server.cc	/^void split(vector<string> &tokens,  string &text, char sep) {$/;"	f
+split	serverlua.cc	/^void split(vector<string> &tokens,  string &text, char sep) {$/;"	f
+split	ssdbluachatserver.cpp	/^void split(vector<string> &tokens,  string &text, char sep) {$/;"	f
+ssdbIP	ssdbluachatserver.cpp	/^const char* ssdbIP;$/;"	v
+ssdbPort	ssdbluachatserver.cpp	/^int ssdbPort;$/;"	v
+ssdbSingle	single.cpp	/^class ssdbSingle$/;"	c	file:
+stack_dump	lua_utility.cpp	/^void Lua::stack_dump(lua_State* L)$/;"	f	class:Lua
+start	bak.serverlua.cc	/^    void start()$/;"	f	class:EchoServer
+start	chatserverlua.cc	/^        void start()$/;"	f	class:EchoServer
+start	server.cc	/^    void start()$/;"	f	class:EchoServer
+start	server_bak.cc	/^  void start()$/;"	f	class:EchoServer
+start	serverlua.cc	/^        void start()$/;"	f	class:EchoServer
+start	ssdbluachatserver.cpp	/^void CppServer::start(std::string &path)$/;"	f	class:CppServer
+startTime_	bak.serverlua.cc	/^    Timestamp startTime_;$/;"	m	class:EchoServer	file:
+startTime_	chatserverlua.cc	/^        Timestamp startTime_;$/;"	m	class:EchoServer	file:
+startTime_	server.cc	/^    Timestamp startTime_;$/;"	m	class:EchoServer	file:
+startTime_	server_bak.cc	/^  Timestamp startTime_;$/;"	m	class:EchoServer	file:
+startTime_	serverlua.cc	/^        Timestamp startTime_;$/;"	m	class:EchoServer	file:
+startTime_	ssdbluachatserver.hpp	/^        Timestamp startTime_;$/;"	m	class:CppServer
+strtobit	scodec.cpp	/^std::string  strtobit(std::string& str){$/;"	f	namespace:Scodec
+strtohex	scodec.cpp	/^std::string strtohex(std::string& str){$/;"	f	namespace:Scodec
+strxor	scodec.cpp	/^std::string strxor(std::string& toCodec,const char* k) {$/;"	f	namespace:Scodec
+strxor	scodec.cpp	/^std::string strxor(std::string& toCodec,std::string& k) {$/;"	f	namespace:Scodec
+subtable	lunar.hpp	/^  static void subtable(lua_State *L, int tindex, const char *name, const char *mode) {$/;"	f	class:Lunar
+swatchFunc_wrapper	libconfig.lua	/^		local function swatchFunc_wrapper()$/;"	f
+szName	tlvdemo.cc	/^    char szName[12];  $/;"	m	struct:_CAT_INFO	file:
+tag	tlvnode.cc	/^    uint8_t tag;$/;"	m	struct:TLV	file:
+tag	tlvnode.cc	/^    uint8_t tag;$/;"	m	struct:TLVComplex	file:
+tag	tlvnode.cc	/^    uint8_t tag;$/;"	m	struct:TLVNODE	file:
+tcons	map.hpp	/^typedef std::vector<muduo::net::TcpConnectionPtr> tcons;$/;"	t
+thunk	lunar.hpp	/^  static int thunk(lua_State *L) {$/;"	f	class:Lunar
+tostring_T	lunar.hpp	/^  static int tostring_T (lua_State *L) {$/;"	f	class:Lunar
+transferred_	bak.serverlua.cc	/^    AtomicInt64 transferred_;$/;"	m	class:EchoServer	file:
+transferred_	chatserverlua.cc	/^        AtomicInt64 transferred_;$/;"	m	class:EchoServer	file:
+transferred_	server.cc	/^    AtomicInt64 transferred_;$/;"	m	class:EchoServer	file:
+transferred_	server_bak.cc	/^  AtomicInt64 transferred_;$/;"	m	class:EchoServer	file:
+transferred_	serverlua.cc	/^        AtomicInt64 transferred_;$/;"	m	class:EchoServer	file:
+transferred_	ssdbluachatserver.hpp	/^        AtomicInt64 transferred_;$/;"	m	class:CppServer
+trim	WebSocket/WebSocket.cpp	/^string WebSocket::trim(string str) $/;"	f	class:WebSocket
+tuple_msg	ssdbluachatserver.cpp	/^typedef std::tuple<int64_t,int64_t,std::string> tuple_msg;$/;"	t	file:
+type	luawrapperutil.hpp	/^    typedef typename std::remove_const<typename std::remove_reference<T>::type>::type type;$/;"	t	struct:luaW_remove_cr
+type	luawrapperutil.hpp	/^template<int start, int count, int... tail> struct luaU_MakeIntRangeType { typedef typename luaU_MakeIntRangeType<start, count-1, start+count-1, tail...>::type type; };$/;"	t	struct:luaU_MakeIntRangeType
+type	luawrapperutil.hpp	/^template<int start, int... tail> struct luaU_MakeIntRangeType<start, 0, tail...> { typedef luaU_IntPack<tail...> type; };$/;"	t	struct:luaU_MakeIntRangeType
+updateField	bak.serverlua.cc	/^    void updateField(std::string ns,std::string field,mongo::BSONObj filter,T a)$/;"	f	class:EchoServer	file:
+updateField	chatserverlua.cc	/^void updateField(std::string ns,std::string field,mongo::BSONObj filter,T a)$/;"	f	class:EchoServer	file:
+updateField	server.cc	/^    void updateField(std::string ns,std::string field,mongo::BSONObj filter,T a)$/;"	f	class:EchoServer	file:
+updateField	serverlua.cc	/^void updateField(std::string ns,std::string field,mongo::BSONObj filter,T a)$/;"	f	class:EchoServer	file:
+upgrade	WebSocket/WebSocket.h	/^    string upgrade;$/;"	m	class:WebSocket
+usage	WebSocket/sha1/sha.cpp	/^void usage()$/;"	f
+usage	WebSocket/sha1/shacmp.cpp	/^void usage()$/;"	f
+userIdCon	bak.serverlua.cc	/^    std::map<int,TcpConnectionPtr> userIdCon;$/;"	m	class:EchoServer	file:
+userIdCon	chatserverlua.cc	/^        std::map<int,TcpConnectionPtr> userIdCon;$/;"	m	class:EchoServer	file:
+userIdCon	server.cc	/^    std::map<int,TcpConnectionPtr> userIdCon;$/;"	m	class:EchoServer	file:
+userIdCon	serverlua.cc	/^        std::map<int,TcpConnectionPtr> userIdCon;$/;"	m	class:EchoServer	file:
+userIdCon	ssdbluachatserver.hpp	/^        UserIdConList userIdCon;$/;"	m	class:CppServer
+userdataType	lunar.hpp	/^  typedef struct { T *pT; } userdataType;$/;"	t	class:Lunar	typeref:struct:Lunar::__anon1
+value	tlvnode.cc	/^    char value[0];$/;"	m	struct:TLVNODE	file:
+value	tlvnode.cc	/^    struct TLV value[0];$/;"	m	struct:TLVComplex	typeref:struct:TLVComplex::TLV	file:
+value	tlvnode.cc	/^    struct TLVNODE value[0];$/;"	m	struct:TLV	typeref:struct:TLV::TLVNODE	file:
+weaktable	lunar.hpp	/^  static void weaktable(lua_State *L, const char *mode) {$/;"	f	class:Lunar
+websocketpp	WebSocket/md5/md5.hpp	/^namespace websocketpp {$/;"	n
+write	client.cpp	/^void ChatClient::write(const muduo::StringPiece& message)$/;"	f	class:ChatClient
+write	testclient.cc	/^  void write(const StringPiece& message)$/;"	f	class:ChatClient
+ws	ssdbluachatserver.hpp	/^        WebSocket ws; $/;"	m	class:CppServer
+wsStatus	ssdbluachatserver.hpp	/^enum wsStatus{$/;"	g
+ws_answerHandshake	WebSocket/WebSocket.cpp	/^	const char* ws_answerHandshake(WebSocket* this_){$/;"	f
+ws_gc	WebSocket/WebSocket.cpp	/^    void ws_gc(WebSocket *this_){$/;"	f
+ws_getFrame	WebSocket/WebSocket.cpp	/^	WebSocketFrameType ws_getFrame(WebSocket* this_, unsigned char* in_buffer, int in_length, unsigned char* out_buffer, int out_size, int* out_length){$/;"	f
+ws_makeFrame	WebSocket/WebSocket.cpp	/^	int ws_makeFrame(WebSocket* this_,WebSocketFrameType frame_type, unsigned char* msg, int msg_len, unsigned char* buffer, int buffer_len){$/;"	f
+ws_new	WebSocket/WebSocket.cpp	/^    WebSocket* ws_new(){$/;"	f
+ws_parseHandshake	WebSocket/WebSocket.cpp	/^	WebSocketFrameType ws_parseHandshake(WebSocket* this_,const char* input_frame, int input_len){$/;"	f
+~C2lua	C2lua.cpp	/^C2lua::~C2lua(){$/;"	f	class:C2lua
+~CTlvPacket	tlv.h	/^    ~CTlvPacket() { }  $/;"	f	class:CTlvPacket
+~Lua_State	bak.serverlua.cc	/^    ~Lua_State() {$/;"	f	class:Lua_State
+~Lua_State	chatserverlua.cc	/^    ~Lua_State() {$/;"	f	class:Lua_State
+~Lua_State	serverlua.cc	/^    ~Lua_State() {$/;"	f	class:Lua_State
+~SHA1	WebSocket/sha1/sha1.cpp	/^SHA1::~SHA1()$/;"	f	class:SHA1
+~TCON	tcon.cpp	/^TCON::~TCON(){$/;"	f	class:TCON
+~TSTAMP	tstamp.cpp	/^TSTAMP::~TSTAMP(){$/;"	f	class:TSTAMP
+~file_watcher_t	file_watcher.cpp	/^  file_watcher_t::~file_watcher_t()$/;"	f	class:cp::file_watcher_t
